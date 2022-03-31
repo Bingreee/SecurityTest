@@ -15,7 +15,7 @@ public class UsersService {
 	UsersDao dao;
 	
 	@Autowired
-	PasswordEncoder encoder;
+	PasswordEncoder encoder;  
 	
 	public int insertUser(Users users) {
 		users.setId("tester");
